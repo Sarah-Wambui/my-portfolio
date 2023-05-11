@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/images/logo.png" type="image">
+    <script src="https://kit.fontawesome.com/80729dbe33.js" crossorigin="anonymous"></script>
     <title>Sarah Wambui Portfolio</title>
 </head>
 <div id="header">
@@ -26,7 +27,58 @@
         </div>
     </div>
 </div>
+
+<!--  ---------about----------  -->  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/best.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <h4>Hi There! I'm Sarah Wambui</h4>
+                <p>I am passionate about solving problems by building softwares that counter them.
+                    My interest in software development started back primary school when my father
+                    introduced me to computers. I really got interested in softwares and after highschool
+                    I decided to join Moringa school where i spent over six months learning coding and
+                    programming. So far I have learnt HTML, CSS, JavaScript, Git collaboration, APIs, React and Python.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onClick="opentab('education')">Education</p>
+                    <p class="tab-links" onClick="opentab('languages')">Languages</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br>Freelance Web/App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Certificate at Moringa School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <body>
- <script src="sript.js"></script>   
+ <script src="script.js"></script>   
 </body>
 </html>
