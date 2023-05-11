@@ -124,3 +124,8 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+#languages i{
+    color: #ff004f;
+    margin: 10px;
+    font-size: 50px;
+}
