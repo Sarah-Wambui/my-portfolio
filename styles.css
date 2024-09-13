@@ -13,8 +13,8 @@ body{
 }
 #header{
     width: 100%;
-    height: 100vh;
-    background-image: url('images/backheader.jpg');
+    height: 95vh;
+    background-image: url('images/header.png');
     background-repeat: no-repeat;
     background-position: 800px 10px;
 }
@@ -65,7 +65,7 @@ nav ul li a:hover::after{
 
 /* ------------about -----------  */
 #about{
-    padding: 50px 0;
+    /* padding: 50px 0; */
     color: #ababab;
 }
 .row{
